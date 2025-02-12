@@ -1,0 +1,133 @@
+html, body {
+    height: 100%;
+}
+
+.full-height {
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding: 7px 10px;
+}
+
+span.select2-selection.select2-selection--single {
+    background-color: #fdfdff;
+    border-color: #e4e6fc;
+    border-top-color: rgb(228, 230, 252);
+    border-right-color: rgb(228, 230, 252);
+    border-bottom-color: rgb(228, 230, 252);
+    border-left-color: rgb(228, 230, 252);
+    border-top-color: rgb(228, 230, 252);
+    border-right-color: rgb(228, 230, 252);
+    border-bottom-color: rgb(228, 230, 252);
+    border-left-color: rgb(228, 230, 252);
+}
+
+.box {
+    border: 1px solid;
+}
+
+.box-200 {
+    width: 220px;
+    height: 220px;
+    text-decoration: none;
+    color: white;
+}
+
+.box-200:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.box-200 .desc {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.justify-conter-center {
+    justify-content: center;
+}
+
+.bg-custom-red {
+    background-color: #f36e42;
+    border-color: #f36e42;
+}
+
+.bg-custom-green {
+    background-color: #3d503c;
+    border-color: #3d503c;
+}
+
+.bg-custom-blue {
+    background-color: #2f5597;
+    border-color: #2f5597;
+}
+
+.triangel-green {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.triangel-red {
+    position: absolute;
+    right: 65px;
+    top: 65px;
+}
+
+.circle-red {
+    position: absolute;
+    left: -175px;
+    bottom: -175px;
+}
+
+.circle-green {
+    position: absolute;
+    left: 210px;
+    bottom: 40px;
+}
+
+html, body {
+    height: 100%;
+}
+.layout-custom {
+    position: relative;
+    text-align: center;
+    display: block;
+    height: 100%;
+}
+ .layout-custom::before, .layout-custom .vertical-middle {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%
+}
+ .layout-custom::before {
+    content: '';
+    width: 0;
+    height: 100%;
+}
+
+.copyright {
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.logo-rs {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.vertical-middle-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
